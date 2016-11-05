@@ -4,17 +4,43 @@ body {
 	font-size:20px;
 }
 h1 {
-	font-size:36px; padding:30px; text-align:center;
+	font-size:50px;
+	padding:30px; 
+	text-align:center;
 }
 h2 {
-	font-size:30px; margin:-25px; text-align:center;
+	font-size:35px; 
+	margin:-25px 0px 40px 750px; 
+	color:#616360; 
 }
 h3 {
-	font-size:30px; margin:30px; 
+	font-size:30px; 
+	margin:30px 0px 0px 326px;  
 }
 h4 {
-	margin:30px; font-family: 'Courgette', cursive;
+	margin:30px 100px; 
+	font-family: 'Courgette', cursive; 
+	padding-left: 17%; 
+	/* font-family: 'Sansita One', cursive; */
 }
-p, {
-	margin:30px;
+p {
+	margin:-15px 100px 50px; 
+	width:50%; 
+	padding-left: 17%; 
+	line-height:25px;
 }
+
+#left, #right {
+	background: mistyrose;
+	position: fixed;
+}
+	
+#left, #right {
+	top: 0; bottom: 0;
+	width: 275px;
+}
+		
+#left { left: 0; }
+#right { right: 0; }
+		
+	
