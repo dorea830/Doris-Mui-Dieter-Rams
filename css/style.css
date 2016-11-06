@@ -3,30 +3,35 @@ body {
 	background-color: white;
 	font-size:20px;
 }
+
 h1 {
-	font-size:50px;
 	padding:30px; 
+	font-size:50px;
 	text-align:center;
 }
+
 h2 {
 	font-size:35px; 
 	margin:-25px 0px 40px 750px; 
-	color:#616360; 
+	color:#F4A4A4; 
 }
+
 h3 {
-	font-size:30px; 
+	font-size:40px; 
 	margin:30px 0px 0px 326px;  
 }
+
 h4 {
 	margin:30px 100px; 
 	font-family: 'Courgette', cursive; 
 	padding-left: 17%; 
 	/* font-family: 'Sansita One', cursive; */
 }
+
 p {
 	margin:-15px 100px 50px; 
-	width:50%; 
 	padding-left: 17%; 
+	width:50%; 
 	line-height:25px;
 }
 
@@ -43,4 +48,13 @@ p {
 #left { left: 0; }
 #right { right: 0; }
 		
-	
+body {
+counter-reset: h4counter;
+}
+
+h4:before {
+content: counter(h4counter) ".\0000a0\0000a0";
+counter-increment: h4counter;
+color:#F4A4A4;
+font-size:2rem;
+    }
