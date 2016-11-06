@@ -4,6 +4,11 @@ body {
 	font-size:20px;
 }
 
+hr {
+	height:3px;
+	border-style:solid;
+}
+
 h1 {
 	padding:30px; 
 	font-size:50px;
@@ -12,13 +17,13 @@ h1 {
 
 h2 {
 	font-size:35px; 
-	margin:-25px 0px 40px 750px; 
+	margin:-25px 0px 35px 750px; 
 	color:#F4A4A4; 
 }
 
 h3 {
 	font-size:40px; 
-	margin:30px 0px 0px 326px;  
+	margin:40px 0px 0px 326px;
 }
 
 h4 {
